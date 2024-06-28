@@ -57,7 +57,7 @@ html, body {
 	padding:1.1rem 3rem;
 	justify-content:space-between;
 	align-items:center;
-	background:rgba(255,255,255,0.1);
+	background:rgba(255, 255, 255, 0);
 }
 
 #todolist .actions {
@@ -112,17 +112,17 @@ form input {
 form button {
 	padding:0 1.3rem;
 	border:none;
-	background:#FF6666;
+	background:#00000098;
 	color:white;
 	text-transform:uppercase;
 	font-weight:bold;
-	border:1px solid rgba(255,255,255,.3);
+	border:1px solid rgba(255, 255, 255, 0.798);
 	margin-left:5px;
 	cursor:pointer;
 	transition:background .2s ease-out;
 }
 form button:hover {
-	background:#FF5E5E;
+	background:#ff5e5e;
 }
 form input, 
 form button {
